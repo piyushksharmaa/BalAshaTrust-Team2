@@ -1,0 +1,289 @@
+.container2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  .left2 {
+    display: flex;
+    width: 20%;
+  }
+}
+
+// CSS for LeftSideBar
+.Leftsidebar2 {
+  width: 100%;
+  height: 596px;
+  background-color: rgb(155, 225, 152);
+  overflow-y: scroll;
+  .LeftsidebarList2 {
+    padding: 0;
+    width: 100%;
+    .row2 {
+      width: 100%;
+      height: 60px;
+      list-style-type: none;
+      margin: 0%;
+      display: flex;
+      color: black;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      &:hover {
+        cursor: pointer;
+        color: white;
+        background-color: rgb(60, 212, 83);
+        border-radius: 8px;
+      }
+      #icon2 {
+        flex: 30%;
+        display: grid;
+        place-items: center;
+      }
+      #title2 {
+        flex: 70%;
+      }
+    }
+  }
+}
+
+// For Dashboard Header
+.header2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .right2 {
+    width: 80%;
+  }
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  .rightbar2 {
+    display: flex;
+    flex-direction: row;
+    .notification2 {
+      padding: 0.8rem 0.9rem;
+    }
+  }
+
+  .name2 {
+    margin: 0.5rem;
+    margin-left: 1.5rem;
+  }
+  .date2 {
+    display: flex;
+    margin: 0.9rem;
+  }
+}
+
+// For Main Container
+.enclosing2 {
+  background-image: url(https://balashatrust.org/wp-content/uploads/2019/09/banner-3.jpg);
+  height: 541px;
+  object-fit: cover;
+  width: 1050px;
+  .profile2 {
+    transition: 0.3s ease-in-out;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 2%;
+    height: 60%;
+    width: 609px;
+    background-color: rgba(224, 224, 224, 0.9);
+    display: flex;
+    align-items: center;
+    .data2 {
+      width: 50%;
+      > ul {
+        > li {
+          list-style: none;
+          list-style-type: none;
+        }
+      }
+      .maindatalist2 {
+        .grid-container {
+          width: 200%;
+          display: grid;
+          grid-template-columns: auto auto;
+          padding: 10px;
+          .grid-item {
+            list-style: none;
+            padding: 20px;
+            font-size: 20px;
+            text-align: center;
+            justify-content: center;
+            .Heading {
+              font-weight: 1000;
+            }
+          }
+        }
+      }
+    }
+    .image2 {
+      width: 60%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      > img {
+        border-radius: 50%;
+        width: 200px;
+      }
+    }
+  }
+  .profile-shift2 {
+    transition: 0.3s ease-in-out;
+    margin: 0 auto;
+    margin-left: 90px;
+    margin-top: 60px;
+    border-radius: 2%;
+    width: 609px;
+    background-color: rgba(224, 224, 224, 0.9);
+    display: flex;
+    align-items: center;
+    .data2 {
+      width: 50%;
+    }
+    .image2 {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      > img {
+        border-radius: 50%;
+      }
+    }
+    > ul {
+      > li {
+        list-style: none;
+        list-style-type: none;
+      }
+    }
+    .maindatalist2 {
+      .grid-container {
+        width: 200%;
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
+        .grid-item {
+          list-style: none;
+          padding: 20px;
+          font-size: 20px;
+          text-align: center;
+          justify-content: center;
+          .Heading {
+            font-weight: 1000;
+          }
+        }
+      }
+    }
+  }
+}
+
+// For Right Side Bar
+
+.rightsidebar2 {
+  position: relative;
+
+  > button {
+    border-radius: 50%;
+    border: 0;
+    &:hover {
+      cursor: pointer;
+      background-color: rgb(241, 185, 212);
+      border: 0;
+    }
+  }
+  .rightsidebaractive2 {
+    height: 615px;
+    width: 250px;
+    border-top-left-radius: 40px;
+    > h2 {
+      margin-left: 50px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      text-decoration: underline;
+    }
+    .row2 {
+      width: 100%;
+      height: 60px;
+      list-style-type: none;
+      margin: 6%;
+      display: flex;
+      color: rgb(87, 87, 87);
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    }
+    position: absolute;
+
+    background-color: rgb(243, 165, 203);
+    .cancelbutton2 {
+      margin-top: 30px;
+      margin-left: 10px;
+      border-style: none;
+      background-color: rgb(243, 165, 203);
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .rightsidebarList2 {
+      position: absolute;
+      > li {
+        list-style: none;
+        list-style-type: none;
+      }
+    }
+    right: -654%;
+    top: -116%;
+    transition: 0.3s ease-in-out;
+  }
+  .rightsidebarnot2 {
+    transition: 0.3s ease-in-out;
+    height: 615px;
+    width: 250px;
+    > h2 {
+      margin-left: 50px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .row2 {
+      width: 100%;
+      height: 60px;
+      list-style-type: none;
+      margin: 6%;
+      display: flex;
+      color: rgb(87, 87, 87);
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      &:hover {
+        cursor: pointer;
+        color: white;
+        background-color: rgb(252, 218, 235);
+      }
+    }
+    position: absolute;
+
+    background-color: rgb(243, 165, 203);
+    .cancelbutton2 {
+      margin-top: 30px;
+      margin-left: 10px;
+      border-style: none;
+      background-color: rgb(243, 165, 203);
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .rightsidebarList2 {
+      position: absolute;
+      > li {
+        list-style: none;
+        list-style-type: none;
+      }
+    }
+    top: -116%;
+    right: -1692%;
+  }
+}

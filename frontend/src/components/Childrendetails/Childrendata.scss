@@ -1,0 +1,90 @@
+.maincontainer23 {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url(https://balashatrust.org/wp-content/uploads/2019/09/banner-3.jpg);
+}
+.container23 {
+  width: 500px;
+  height: 650px;
+  background: #e0dcdc;
+  text-align: center;
+  border-radius: 5px;
+  padding: 50px 35px 10px 35px;
+  overflow: auto;
+}
+
+.scrollable-container23 {
+  max-height: 600px;
+  overflow: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.h2-23 {
+  margin-top: 20px;
+}
+
+.form-23 {
+  margin-bottom: 20px;
+}
+
+.label-23 {
+  display: inline-block;
+  width: 150px;
+  font-weight: bold;
+}
+
+.input-23,
+.textarea-23 {
+  width: 250px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.textarea-23 {
+  height: 100px;
+}
+
+.input-23,
+.textarea-23 {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+}
+
+.buttons-23 {
+  margin-top: 20px;
+}
+
+.button-23 {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  margin: 15px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+    background-color: #0056b3;
+  }
+}
+
+.approved-button {
+  background-color: green;
+  color: white;
+}
+
+.discard-button {
+  background-color: red;
+  color: white;
+}
+
+.pending-button {
+  background-color: orange;
+  color: white;
+}

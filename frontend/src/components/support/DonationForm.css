@@ -1,0 +1,74 @@
+.donation-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 30%;
+    padding: 20px 20px;
+    border-radius: 30px;
+}
+
+.donation-form-heading {
+    color: #ff6f69;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.donation-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+}
+
+.donation-form-group {
+    margin-bottom: 20px;
+}
+
+.donation-form-label {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.donation-form-textarea,
+.donation-form-input,
+.donation-form-select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.donation-form-textarea {
+    resize: vertical;
+}
+
+.donation-form-button {
+    padding: 10px;
+    background-color: #6fbf73;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.donation-form-button:hover {
+    background-color: #5aae63;
+}
+
+.donation-form-button:focus {
+    outline: none;
+}
+.donation-form-mainContainer{
+    background-image: url("https://balashatrust.org/wp-content/uploads/2019/09/banner-1.jpg");
+}
+.kacchi{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+}

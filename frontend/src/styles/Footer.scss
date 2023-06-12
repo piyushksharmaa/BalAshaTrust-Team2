@@ -1,0 +1,14 @@
+@import "colors";
+.footer {
+  width: 100%;
+  padding: 1rem;
+  background-color: $fifth;
+  color: $first;
+  > h4 {
+    display: inline-block;
+  }
+  > main {
+    display: flex;
+    justify-content: space-between;
+  }
+}

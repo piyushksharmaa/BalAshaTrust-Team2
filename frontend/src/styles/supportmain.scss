@@ -1,0 +1,42 @@
+.support-body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  //   align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+  background-image: url(https://balashatrust.org/wp-content/uploads/2019/09/banner-4.jpg);
+}
+.support-main-content {
+  border-radius: 30px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  //   justify-content: center;
+  background-color: rgb(234, 224, 213);
+  opacity: 90%;
+  flex-direction: column;
+}
+
+.support-main-heading {
+  margin: 50px;
+}
+.support-main-content {
+  margin: 50px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.support-main-button {
+  margin: 30px;
+  margin-top: 10px;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  background-color: aquamarine;
+  &:hover {
+    background-color: rgb(113, 234, 193);
+    color: white;
+    font-size: medium;
+  }
+}

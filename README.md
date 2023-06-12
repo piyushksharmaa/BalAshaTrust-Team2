@@ -1,2 +1,1 @@
-# BalAshaTrust-Team2
-Digitizing Orphan care and Adoption in India
+# Bal_Asha_Trust_App
